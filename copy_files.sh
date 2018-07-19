@@ -9,6 +9,10 @@ adb push iwlist /sbin/iwlist &&
 adb push iwpriv /sbin/iwpriv &&
 adb push iwspy /sbin/iwspy &&
 adb push wpa_cli /bin/wpa_cli &&
+adb push libcrypto.so /lib/libcrypto.so &&
+adb push libcrypto.so.1.1  /lib/libcrypto.so.1.1 &&
+adb push libssl.so  /lib/libssl.so &&
+adb push libssl.so.1.1  /lib/libssl.so.1.1 &&
 adb push wpa_passphrase /bin/wpa_passphrase &&
 adb push wpa_supplicant /bin/wpa_supplicant &&
 adb push shortpress_3.sh /bin/onoffbutton/shortpress_3.sh &&
